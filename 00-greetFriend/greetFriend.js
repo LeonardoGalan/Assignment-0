@@ -1,7 +1,6 @@
 function greetFriend(name) {
-  let h = "Hello, "
-  let k = "!"
-  return h + name + k;
+  let greeting = "Hello, " + name + "!"
+  return greeting;
 }
 
 // Do not edit this line;
