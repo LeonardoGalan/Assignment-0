@@ -1,5 +1,5 @@
 function greetFriend(name) {
-  let greeting = "Hello, " + name + "!";
+  var greeting = "Hello, " + name + "!";
   return greeting;
 }
 
