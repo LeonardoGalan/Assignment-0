@@ -4,7 +4,24 @@ class MySolution {
   }
 
   binarySearch(nums, target) {
-    // Insert code here;
+     if (nums.length === 0) {
+    return false;
+  } 
+    else {
+      let half = Math.floor(nums.length / 2);
+
+    if (nums[half] === target) {
+      return true;
+    } 
+    else {
+      if (nums[half] < target) {
+        return this.binarySearch(nums.slice(half + 1), target);
+      } 
+      else if (nums[half] > target) {
+        return this.binarySearch(nums.slice(0, half), target);
+        }
+      }
+    }
   }
 }
 

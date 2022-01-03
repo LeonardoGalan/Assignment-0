@@ -1,5 +1,6 @@
 function cutInHalfAndFloor(num) {
-  // Insert code here;
+let halfAndFloor = Math.floor(num/2);
+return halfAndFloor
 }
 
 // Do not edit this line;
